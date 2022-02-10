@@ -1,0 +1,28 @@
+﻿#form1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#btnLogin {
+    background: #459a21;
+    padding: 7px 12px;
+    color: #fff;
+}
+
+#btnNewUser:hover {
+    background: #3a831b;
+    padding: 7px 12px;
+    color: #fff;
+}
+
+#btnNewUser {
+    background: #459a21;
+    padding: 7px 12px;
+    color: #fff;
+}
+
+#btnLogin:hover {
+    background: #3a831b;
+    padding: 7px 12px;
+    color: #fff;
+}

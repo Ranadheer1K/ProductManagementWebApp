@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProductOrg.master.cs" Inherits="ProductManagement.ProductOrg" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="/AppContents/MasterStyles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <aside id="sideMenu">
+                <a href="AddProduct.aspx">Insert Product</a> <br /> <br />
+                <a href="RetrieveProducts.aspx">Retrieve Products</a> <br /> <br />
+                <a href="UpdateProduct.aspx">Update Product</a> <br /> <br />
+                <a href="DeleteProduct.aspx">Delete Product</a>
+            </aside>
+        </div>
+
+        <div id="main-body">
+            <asp:ContentPlaceHolder ID="BodyContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            <p>Copy right @2022</p>
+        </div>
+    </form>
+</body>
+</html>

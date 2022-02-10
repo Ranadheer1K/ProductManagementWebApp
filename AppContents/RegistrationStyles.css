@@ -1,0 +1,37 @@
+﻿body {
+
+}
+
+#form1 {
+    text-align:center;
+}
+
+#head {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 40px;
+    background-color: #2d8fd5;
+}
+
+.txtReg {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#btnRegister {
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: #309c0d;
+    color: #fff;
+}
+
+#btnRegister:hover {
+    padding: 7px 15px;
+    background-color: #367714;
+    color: #fff;
+}
+
+.lblReg {
+    font-size: 20px;
+}
